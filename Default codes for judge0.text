@@ -1,0 +1,44 @@
+// java: {
+//     import java.util.Scanner;
+
+//     public class Main {
+//         public static void main(String[] args) {
+//             Scanner scanner = new Scanner(System.in);
+
+//             // Check if there is input available
+//             if (scanner.hasNextInt()) {
+//                 int number = scanner.nextInt();
+//                 System.out.println(number);
+//             } else {
+//                 System.out.println("No input provided!");
+//             }
+
+//             scanner.close();
+//         }
+//     }
+
+// }
+
+
+
+// js: {
+//     function generateArrayAndSum(n) {
+//         // Ensure 'n' is a number
+//         n = parseInt(n);
+        
+//         // Create an array from 1 to n
+//         let arr = Array.from({ length: n }, (_, i) => i + 1);
+    
+//         // Calculate the sum of the array
+//         let sum = arr.reduce((acc, num) => acc + num, 0);
+    
+//         // Print output (Judge0 expects console output)
+//         console.log("Array:", arr);
+//         console.log("Sum of the array:", sum);
+//     }
+    
+//     // Example input for Judge0
+//     let input = "5"; // Judge0 provides input as a string
+//     generateArrayAndSum(input);
+    
+// }
