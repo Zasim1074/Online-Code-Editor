@@ -25,7 +25,7 @@ This document outlines the development of an Online Code Editor web application 
 10. **Default Codes for Default Language**: Get default codes Automatically while choosing language
 11. **Multiple Themes Support**: Multiple themes and syntax to keep you engaged
 12. **Public Accessible**: Free to use for everyone
-13. **Two Different Screens**: 1)HomePage:- ![alt text](image.png), 2)Editor page:- ![alt text](image-1.png)
+13. **Two Different Screens**: 1)HomePage:- ![alt text](image.png) 2)Editor page:- ![alt text](image-1.png)
 
 ## Technical Challenges
 During development, I encountered several technical challenges:
