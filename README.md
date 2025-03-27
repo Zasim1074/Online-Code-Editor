@@ -1,4 +1,4 @@
-# Project Synopsis: Online Code Editor
+# Project Judge - An Online Code Editor
 
 ## Project Overview
 This document outlines the development of an Online Code Editor web application built using React and Vite. The platform aims to provide developers with a browser-based coding environment that offers real-time code execution, syntax highlighting, and collaborative features.
@@ -27,16 +27,6 @@ This document outlines the development of an Online Code Editor web application 
 12. **Public Accessible**: Free to use for everyone
 13. **Two Different Screens**: 1)HomePage:- ![alt text](image.png) 2)Editor page:- ![alt text](image-1.png)
 
-## Technical Challenges
-During development, I encountered several technical challenges:
-- URI malformation errors in the Vite development server
-- Performance optimization for real-time code execution
-- Cross-browser compatibility issues
-- WebSocket connection management for collaborative features
-- Judge0 integration issues for user input for Java and Javascript Language
-- It has 50 code compilation limit cause it's a paid service
-
-
 ## Implementation Strategy
 The application follows a component-based architecture with:
 - Editor Component: Integrating Monaco Editor with custom configurations
@@ -56,18 +46,5 @@ The application follows a component-based architecture with:
 The application will be deployed using:
 - CDN for static assets to improve loading performance
 - Scalable frontend services to handle varying user loads
-
-## Future Enhancements
-- Integration with additional third-party services
-- AI-powered code suggestions
-- Support for additional programming languages
-- Advanced debugging tools
-- Custom extension marketplace
-
-## Project Timeline
-- **Phase 1** (1 weeks): Core editor functionality and UI development
-- **Phase 2** (1 weeks): Collaborative features implementation for Files and Folder
-- **Phase 3** (1 weeks): Implementating Monaco-editor and Judge0 server
-- **Phase 4** (1 weeks): Testing, optimization, deployment, and hosting it live on Netlify
 
 ## Live Project Link:- https://project-judge.vercel.app/
