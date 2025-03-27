@@ -43,7 +43,7 @@ export const EditorContainer = ({ fileId, folderId, runCode }) => {
   } = useContext(PlaygroundContext);
   const { openModal, setModalPayLoad } = useContext(ModalContext);
 
-  const [theme, setTheme] = useState("vs-light");
+  const [theme, setTheme] = useState("vs-dark");
   const [language, setLanguage] = useState(() => getLanguage(fileId, folderId));
   const [code, setCode] = useState(() => getDefaultCodes(fileId, folderId));
   const [isFullScreen, setIsFullScreen] = useState(false);
